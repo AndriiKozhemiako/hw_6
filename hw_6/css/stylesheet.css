@@ -1,0 +1,154 @@
+/* header */
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header__menu {
+    margin-top: 20px;
+    padding-top: 35px;
+    font-family: "Cera pro", bold, serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__menu::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 0.004em;
+    background-color: #46A358;
+}
+
+.header__nav {
+    flex: 1;
+    font-weight: bold
+}
+
+
+.header__logo {
+    width: 150px;
+    height: 34px;
+    top: 1px;
+    margin-right: auto;
+}
+
+
+.header__nav ul {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+}
+
+
+
+.header__nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.header__button {
+    background-color: #46A358;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100px;
+    height: 35px;
+}
+
+.header__button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__button img {
+    margin-right: 5px;
+    margin-left: 0;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+/* Main */
+
+.main__block {
+    position: relative;
+    margin: 50px auto 0 auto;
+    max-width: 1200px;
+    height: 450px;
+    font-family: "Cera pro", bold, serif;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main__text1 {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.main__text2 {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 64px;
+    max-width: 530px;
+    font-weight: bold;
+}
+
+.main__text3 {
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 14px;
+    max-width: 557px;
+}
+
+span {
+    color: #46A358;
+    margin-left: 15px;
+}
+
+.main__input {
+    margin-top: 38px;
+    margin-left: 80px;
+    background-color: #46A359;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+}
+
+.main__input a {
+    color: #f3eaea;
+    text-decoration: none;
+}
+
+.main__pic1 {
+    position: absolute;
+    max-width: 100%;
+    right: 0;
+}
+
+.main__pic2 {
+    position: absolute;
+    max-width: 100%;
+    right: 320px;
+    top: 300px;
+}
